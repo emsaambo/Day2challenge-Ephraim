@@ -1,0 +1,124 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100vh;
+background: rgb(255, 233, 232);
+}
+
+
+.otp_form{
+    
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding:20px 30px;
+    gap:20px ;
+    position: relative;
+   
+    box-shadow: 0px 0px 20px black;
+    border-radius: 15px;
+  
+
+}
+
+.Heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.Heading2{
+    font-size: 16px;
+    color: black;
+    line-height: 17px;
+    text-align: center;
+}
+.input_container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.otp_input{
+    background-color: rgb(228, 228, 228);
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    caret-color: rgb(127, 130,255);
+    color: rgb(44, 46, 46);
+    font-weight: 600;
+    border:none;
+    outline: none;
+    text-align: center;
+}
+.verifybtn{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: rgb(122, 120, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 3s;
+    font-weight: 600;
+}
+
+.verifybtn:hover{
+    background-color: rgb(19, 30, 114);
+    transition-duration: 3s;
+}
+
+.exit{
+position: absolute;
+top: 5px;
+right: 5px;
+box-shadow: 0px 0px 20px;
+background-color: rgb(228, 228, 228);
+border-radius: 50%;
+width: 25px;
+height: 25px;
+color: black;
+font-size: 1.1em;
+border: none;
+cursor: pointer;
+}
+.resend_note{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    gap: 5px;
+}
+.resend_btn{
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+   
+    background-color: transparent;
+    color: aqua;
+    cursor: pointer;
+
+}
